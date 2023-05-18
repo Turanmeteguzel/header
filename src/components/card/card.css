@@ -1,0 +1,68 @@
+.cards{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 70px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 20px;
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    transition: 1s;
+}
+.button:hover{
+    background-color: #ff495c;
+    border: #fff;
+    color: #fff;
+    transition: .5s;
+}
+.card{
+    height: 300px;
+    width: 250px;
+    margin-right: 9px;
+    border-radius: 20px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+.cardOne{
+    flex: 3;
+}
+.cardTwo{
+    flex: 3;
+}
+.cardThree{
+    flex: 3;
+}
+.cardFour{
+    flex: 3;
+}
+.wrapper{
+    padding: 20px;
+}
+.cardIcon{
+    width: 70px;
+    height: 70px;
+}
+.title{
+    font-weight: 600;
+    font-size: medium;
+    padding-top: 10px;
+}
+.desc{
+    font-weight: 300;
+    font-size: medium;
+    padding-top: 15px;
+}
+.button{
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    padding: 0;
+    line-height: 40px;
+    background-color: #fff;
+    color: #ff495c;
+}
